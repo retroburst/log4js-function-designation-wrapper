@@ -69,7 +69,7 @@ logFromAnnonFn2();
 
 // log from an IIFE
 (function(){
-    var obj = { name: "Lord British", hitposints : 255 };
+    var obj = { name: "Lord British", hitpoints : 255 };
     // when overriding, you can pass arguments to the underlying log function via this arguments property,
     // it can be an array of things or a single thing
     logger.debug({ functionDesignation: "my-IIFE", arguments: "Lord British is here." });
