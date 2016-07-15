@@ -1,0 +1,34 @@
+{
+  "name": "log4js-function-designation-wrapper",
+  "version": "0.0.1",
+    "description": "A simple wrapper for log4js that provides module and function name information in logs without having to define more than one configured logger.",
+  "main": "log4js-function-designation-wrapper.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "dependencies": {
+    "check-types": "^7.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+        "log4js": "^0.6.33"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retroburst/log4js-memory-appender.git"
+  },
+  "keywords": [
+    "log4js",
+    "function",
+    "module",
+    "designation",
+    "contextual",
+    "logs"
+  ],
+  "author": "Andrew D <retroburst@gmail.com> (retroburst)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/retroburst/log4js-function-designation-wrapper/issues"
+  },
+  "homepage": "https://github.com/retroburst/log4js-function-designation-wrapper#readme"
+}
