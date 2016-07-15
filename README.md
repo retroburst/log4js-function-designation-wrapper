@@ -123,6 +123,6 @@ Error: test
     at startup (node.js:136:18)
     at node.js:963:3
 [2016-07-15 15:35:07.416] [DEBUG] [default] - module-name : [my-IIFE] : Lord British is here.
-[2016-07-15 15:35:07.416] [WARN] [default] - module-name : [my-IIFE] : Failed to do something. { name: 'Lord British', hitposints: 255 }
+[2016-07-15 15:35:07.416] [WARN] [default] - module-name : [my-IIFE] : Failed to do something. { name: 'Lord British', hitpoints: 255 }
 
 ```
