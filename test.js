@@ -5,6 +5,8 @@ var log4jsWrapper = require('./log4js-function-designation-wrapper');
 // you would usually set this up in your app.js or app initialisation module
 global.logger = log4js.getLogger();
 
+global.logger.level = "ALL";
+
 // module level logger
 var logger = log4jsWrapper(global.logger, "module-name");
 
