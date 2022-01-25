@@ -1,6 +1,6 @@
 {
   "name": "log4js-function-designation-wrapper",
-  "version": "0.0.1",
+  "version": "6.0.0",
   "description": "A simple wrapper for log4js that provides module and function name information in logs without having to define more than one configured logger.",
   "main": "log4js-function-designation-wrapper.js",
   "scripts": {

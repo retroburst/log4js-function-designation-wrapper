@@ -8,6 +8,9 @@ For normal logging scenarios, you can just call the wrapper as you would the und
 For logging from annoymous functions you can override the module designation and / or function designation, 
 as well as the arguments for the underlying log4js function. Please see below for example usage.
 
+* log4js-function-designation-wrapper v0.0.1 - works with Log4js versions below v2.0.0
+* log4js-function-designation-wrapper v6.0.0 and above - designed to work with Log4js v6.4.0 and above
+
 ## Install
 
 ```
