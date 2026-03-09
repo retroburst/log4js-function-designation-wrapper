@@ -1,7 +1,6 @@
 // requires
 var check = require('check-types');
 var util = require('util');
-var underscore = require('underscore');
 
 /********************************************************
  * Builds a logger wrapper around the log4js logger.
@@ -29,7 +28,7 @@ var loggerWrapper = function loggerWrapper(logger, moduleDesignation){
      ********************************************************/
     var buildArguments = function buildArguments(args, moduleDesignation, functionDesignation){
         var argsArray = null;
-        if(check.array(args) || underscore.isArguments(args)){
+        if(check.array(args) || Object.prototype.toString.call(args) === '[object Arguments]'){
             argsArray = Array.prototype.slice.call(args);
         } else {
             argsArray = [args];
@@ -105,4 +104,3 @@ var loggerWrapper = function loggerWrapper(logger, moduleDesignation){
 module.exports = function (logger, moduleDesignation) {
     return new loggerWrapper(logger, moduleDesignation);
 };
-
